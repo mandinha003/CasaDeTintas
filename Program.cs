@@ -10,19 +10,15 @@ int latas, galoes;
 
  string cor;
 
-
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.WriteLine("--- CASA DE TINTA ---");
 Console.ResetColor();
  
- 
 Colorir("\nEscolha a cor da sua tinta..: ",  ConsoleColor.DarkCyan);
 cor = Convert.ToString(Console.ReadLine())!;
  
- 
 Colorir("\nÁrea a ser Preenchido (m²)...: ",  ConsoleColor.DarkCyan);
- 
- 
+  
 area = Convert.ToDouble(Console.ReadLine());
  
 tinta = area / Rendimento;
@@ -45,7 +41,6 @@ if (tinta - tintaEMLatas - tintaEMGaloes > 0)
 Colorir("\nDistribuição: \n",  ConsoleColor.DarkCyan);
 Colorir($"Latas...: {latas:N0} unidade(s)\n",  ConsoleColor.DarkCyan);
 Colorir($"Galões..: {galoes:N0} unidade(s)\n",  ConsoleColor.DarkCyan);
- 
  
 void Colorir(string texto, ConsoleColor cor)
 {
