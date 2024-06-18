@@ -1,4 +1,5 @@
-﻿const double CapacidadeLata = 18;
+Console.Clear();
+const double CapacidadeLata = 18;
 const double CapacidadeGalao = 3.6;
  
 const double MargemErro = 0.1;
@@ -41,6 +42,9 @@ if (tinta - tintaEMLatas - tintaEMGaloes > 0)
 Colorir("\nDistribuição: \n",  ConsoleColor.DarkCyan);
 Colorir($"Latas...: {latas:N0} unidade(s)\n",  ConsoleColor.DarkCyan);
 Colorir($"Galões..: {galoes:N0} unidade(s)\n",  ConsoleColor.DarkCyan);
+
+Console. Write("\nPressione uma tecla para finalizar....");
+Console.ReadKey();
  
 void Colorir(string texto, ConsoleColor cor)
 {
