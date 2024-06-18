@@ -43,7 +43,7 @@ Colorir("\nDistribuição: \n",  ConsoleColor.DarkCyan);
 Colorir($"Latas...: {latas:N0} unidade(s)\n",  ConsoleColor.DarkCyan);
 Colorir($"Galões..: {galoes:N0} unidade(s)\n",  ConsoleColor.DarkCyan);
 
-Console. Write("\nPressione uma tecla para finalizar....");
+Colorir("\nPressione uma tecla para finalizar....",  ConsoleColor.DarkCyan);
 Console.ReadKey();
  
 void Colorir(string texto, ConsoleColor cor)
