@@ -44,7 +44,7 @@ Colorir($"Latas...: {latas:N0} unidade(s)\n",  ConsoleColor.DarkCyan);
 Colorir($"Galões..: {galoes:N0} unidade(s)\n",  ConsoleColor.DarkCyan);
 
 Console.ForegroundColor = ConsoleColor.Blue;
-Console.Write("\nPressione uma tecla para finalizar....");
+Console.Write("\nPressione espaço para finalizar....");
 Console.ReadKey();
 Console.ResetColor();
  
